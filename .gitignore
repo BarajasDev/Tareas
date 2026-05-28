@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE and tool configs
+.agents/
+.claude/
+.gemini/
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Log files
+*.log
+debug.log
+
+# Output/upload dirs (if they are dynamically generated, though they might contain PDF outputs)
+# Let's keep outputs/ and uploads/ in git if they contain project code, but usually outputs and uploads are ignored.
+# Let's look at CLAUDE.md to see if they say anything about project structure.
